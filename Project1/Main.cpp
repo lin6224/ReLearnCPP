@@ -37,7 +37,7 @@ int main()
 
 	printNumber();
 
-	printNumber(x);
+	printNumber(100);
 
 	system("pause");
 	return 0;
