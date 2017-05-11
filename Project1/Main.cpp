@@ -15,6 +15,15 @@ int main()
 	cin >> x;
 	cout << x << endl << endl;
 
+	if (x = 2)
+	{
+		cout << "your enter number is 2" << endl;
+	}
+	else
+	{
+		cout << "your enter number is not 2" << endl;
+	}
+
 
 	system("pause");
 	return 0;
