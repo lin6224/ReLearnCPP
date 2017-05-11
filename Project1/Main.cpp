@@ -10,6 +10,11 @@ int main()
 	int x = 1;
 	cout << x << endl <<endl;
 	
+	// cin to read user type in the console.
+	cout << "Enter a number : ";
+	cin >> x;
+	cout << x << endl << endl;
+
 
 	system("pause");
 	return 0;
