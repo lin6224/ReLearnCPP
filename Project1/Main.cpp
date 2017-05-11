@@ -4,6 +4,10 @@ using namespace std;
 // it call function prototyping
 void printFunction();
 
+void printNumber();
+
+void printNumber(int);
+
 
 int main()
 {
@@ -31,11 +35,25 @@ int main()
 
 	printFunction();
 
+	printNumber();
+
+	printNumber(x);
+
 	system("pause");
 	return 0;
 }
 
 
+void printNumber()
+{
+	cout << " not a number to print " << endl;
+}
+
+
+void printNumber( int x )
+{
+	cout << x << endl;
+}
 
 
 void printFunction()
