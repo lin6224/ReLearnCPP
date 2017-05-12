@@ -4,8 +4,8 @@ using namespace std;
 // function prototyping
 void printFunction();
 
+// function overloading
 void printNumber();
-
 void printNumber(int);
 
 
@@ -24,6 +24,7 @@ int main()
 	cin >> x;
 	cout << x << endl << endl;
 
+	// use the switch can instant the if else
 	if (x = 2){
 		cout << "your enter number is 2" << endl;
 	}else{
@@ -35,6 +36,14 @@ int main()
 	printNumber();
 
 	printNumber(100);
+
+	int y = 0;
+	// do while, for  to loop
+	while ( y < 10 )
+	{
+		cout << y << endl;
+		y++;
+	}
 
 	system("pause");
 	return 0;
