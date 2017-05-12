@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// it call function prototyping
+// function prototyping
 void printFunction();
 
 void printNumber();
@@ -24,12 +24,9 @@ int main()
 	cin >> x;
 	cout << x << endl << endl;
 
-	if (x = 2)
-	{
+	if (x = 2){
 		cout << "your enter number is 2" << endl;
-	}
-	else
-	{
+	}else{
 		cout << "your enter number is not 2" << endl;
 	}
 
