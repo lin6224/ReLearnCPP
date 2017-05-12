@@ -45,6 +45,20 @@ int main()
 		y++;
 	}
 
+
+	// basic pointer information
+	int z = 5;
+	// *p will get the z memory address
+	int *p = &z;
+
+	// print out the z memory address
+	cout << &z << endl;
+	// print out the p memory address
+	cout << p << endl;
+	//print out the value in the memory address
+	cout << *p << endl;
+
+
 	system("pause");
 	return 0;
 }
