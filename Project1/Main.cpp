@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream>		// the standard stream I/O
 using namespace std;
 
 // function prototyping
@@ -9,7 +9,7 @@ void printNumber();
 void printNumber(int);
 
 
-int main()
+int main() // the minimal c++ programm
 {
 	// if use the namspace std, can save to write down complete name
 	std::cout << "Hello World !" << std::endl;
@@ -37,7 +37,9 @@ int main()
 
 	printNumber(100);
 
-	int y = 0;
+	//int y = 0;
+	auto y = 0;
+
 	// do while, for  to loop
 	while ( y < 10 )
 	{
